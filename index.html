@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.9/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>public message.</title>
+</head>
+<body class="bg-blue">
+
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+
+        <div class="bg-white p-4 rounded shadow-sm mb-3">
+          <h1 class="fw-normal">Message List -_-</h1>
+          <p class="fw-light fs-14">
+            sebuah program simple yang dibuat dengan bahasa pemrograman javascript. program ini disertai dengan fitur ubah dan input pencarian data, Created RizkyDolkennnn 2022🌹.
+          </p>
+          <div class="input-group mt-3">
+            <input type="text" class="form-control py-2 px-3 search-input" placeholder="masukkan input pencarian" autocomplete="off">
+          </div>
+        </div>
+
+        <!-- content -->
+        <div class="content">
+          <!--
+                    <div class="bg-white p-4 rounded shadow-sm">
+                      <p class="fw-light fs-14">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ratione culpa repellat cumque consequuntur ducimus velit eius ipsam ut illo cupiditate, corporis, quaerat?
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <i class="my-auto fw-light fs-13">june - saturday, 20:09:00</i>
+                        <div class="button-wrapper">
+                          <button class="btn btn-outline-primary rounded-1 mx-1" data-bs-toggle="modal" data-bs-target="#modal">
+                            <i class="fa-solid fa-pen"></i>
+                          </button>
+                          <button class="btn btn-outline-danger rounded-1">
+                            <i class="fa-solid fa-trash"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    -->
+        </div>
+
+        <!-- tambah data -->
+        <div class="input-group mt-3">
+          <input type="text" class="form-control py-2 px-3 add-input" placeholder="inputkan sesuatu ..." aria-label="Recipient's username" aria-describedby="button-addon2" autocomplete="off">
+          <button class="btn btn-secondary py-2 px-3 add-button" type="button" id="button-addon2">Tambah</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-normal" id="exampleModalLabel">Ubah Data</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <textarea cols="30" rows="10" class="form-control edit-input" placeholder="input ubah data ..." autocomplete="off"></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary rounded-1" data-bs-dismiss="modal">Close Modal</button>
+          <button type="button" class="btn btn-outline-primary rounded-1 edit-button">Ubah Data</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.9/sweetalert2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
